@@ -1,0 +1,110 @@
+.topbox{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;   
+}
+
+.profilebox{
+ display: flex;
+ width: 60%;
+ margin: 40px auto;
+ align-content: center;
+}
+
+.rightprofilebox{
+    display: flex;
+    align-content: center;
+    margin: 20px 0;
+    flex-direction: column;
+}
+
+.name {
+  align-content: center;
+  justify-content: center;   
+}
+
+.profileimage{
+    margin: 0 100px;
+}
+
+.rightbox{
+ display: flex;
+ justify-content: space-around;
+}
+
+.profilemiddlebox{
+ display: flex;
+ justify-content: space-between;
+ width: 300px;
+}
+
+.profileimage{
+    width: 150px; height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    left: 200px;
+    bottom: 190px;
+   }
+
+
+.far{
+    font-size: 20px;
+    margin: 0 15px;
+}
+
+.namebox{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.form-control{
+    width: 250px;
+    height: 30px;
+}
+
+.rmftlbox {
+ display: flex;
+ justify-content: space-around;   
+ width: 300px;
+ 
+}
+
+.sajinbox { 
+display: flex;
+justify-content: space-evenly;
+align-content: space-around;
+flex-wrap: wrap;
+width: 1000px;
+}
+
+.bottombox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.삼겹살{
+    display: flex;
+    margin: 10px 10px;
+}
+.방어회{
+    display: flex;
+    margin: 10px 10px;
+}
+.떡볶이{
+    display: flex;
+    margin: 10px 10px;
+}
+
+.을지로{
+    display: flex;
+    margin: 10px 10px;
+}
+.박람회{
+    display: flex;
+    margin: 10px 10px;
+}
+.파이리{
+    display: flex;
+    margin: 10px 10px;
+}
