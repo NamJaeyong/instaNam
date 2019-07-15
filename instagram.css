@@ -83,28 +83,54 @@ width: 1000px;
     flex-direction: column;
     align-items: center;
 }
+.box {
+    width: 30%;
+    height: 300px;
+}
+.box-image {
+    width:  100%;
+}
 .삼겹살{
-    display: flex;
+    width: 30%;
     margin: 10px 10px;
 }
 .방어회{
-    display: flex;
+    width: 30%;
     margin: 10px 10px;
 }
 .떡볶이{
-    display: flex;
+    width: 30%;
     margin: 10px 10px;
 }
 
 .을지로{
-    display: flex;
+    width: 30%;
     margin: 10px 10px;
 }
 .박람회{
-    display: flex;
+    width: 30%;
     margin: 10px 10px;
 }
 .파이리{
-    display: flex;
+    width: 30%;
     margin: 10px 10px;
+}
+
+@media(max-width: 1000px){
+.mr-sm-2{
+    display: none;
+}
+.profileimage{
+    margin: 0 10px;
+}    
+.sajinbox{
+    width: 100%;
+}
+.topbox{
+    width: 100%;
+    
+}
+.bottombox{
+    align-items: center;
+}
 }
